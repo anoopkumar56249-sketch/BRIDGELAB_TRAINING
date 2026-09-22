@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <form action="#" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br><br>
+    <label for="login-password">Password:</label>
+    <input type="password" id="login-password" name="password" required>
+    <br><br>
+    <!-- A CSRF token helps the server verify that a form submission came from the intended website. -->
+    <input type="hidden" name="csrf_token" value="demo-csrf-token">
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
