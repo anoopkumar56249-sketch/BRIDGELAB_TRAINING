@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; text-align: center; background: #f3f4f6; padding: 40px; }
+.showcase { display: flex; justify-content: center; gap: 45px; flex-wrap: wrap; margin-top: 70px; }
+.box { width: 120px; height: 120px; display: flex; justify-content: center; align-items: center; background: #90caf9; border: 2px solid #333; transition: all 0.4s ease; }
+.rotate:hover { transform: rotate(20deg); }
+.scale:hover { transform: scale(1.25); }
+.translate:hover { transform: translate(20px, -15px); }
+.skew:hover { transform: skew(15deg, 8deg); }
+.showcase p { font-weight: bold; }

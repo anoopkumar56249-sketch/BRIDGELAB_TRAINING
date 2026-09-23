@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f0f0f0; }
+.page { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.margin-layer { background: #ffe0b2; padding: 35px; outline: 3px dashed #e65100; }
+.border-layer { background: #90caf9; border: 12px solid #1565c0; padding: 25px; }
+.padding-layer { background: #c8e6c9; padding: 35px; }
+.content-layer { background: #fff59d; padding: 30px 60px; font-weight: bold; }
+.info { max-width: 650px; padding: 20px; }

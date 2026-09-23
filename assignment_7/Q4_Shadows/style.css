@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; }
+header { text-align: center; padding: 30px; }
+h1 { text-shadow: 2px 2px 4px #999; }
+.cards { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; padding: 40px; }
+.card { width: 250px; padding: 35px 25px; background: white; border-radius: 14px; text-align: center; transition: all 0.3s ease; }
+.shadow1 { box-shadow: 3px 3px 10px #aaa; }
+.shadow2 { box-shadow: 0 8px 20px #999; }
+.shadow3 { box-shadow: 8px 8px 25px #777; }
+.card:hover { transform: translateY(-10px); box-shadow: 0 18px 35px #666; }
